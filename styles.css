@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.flower {
+    position: relative;
+}
+
+.text{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    transform: translate(0%, 0%);
+    color: white;
+    font-size: 25px;
+}
+.center {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-700%, -350%);
+}
+.center1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(550%, -350%);
+}
+.center2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+}
+.center3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -350%);
+}
+
+.center5 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(550%, 90%);
+}
+.center6 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-700%, 90%);
+}
+.petals {
+    position: relative;
+}
+
+.petal {
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid  rgb(255, 208, 0);
+}
+
+.petal:nth-child(1) {
+    top: 20px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+
+.petal:nth-child(2) {
+    top: 20px;
+    left: -50px;
+    transform: rotate(-45deg);
+}
+
+
